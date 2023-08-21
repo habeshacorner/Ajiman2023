@@ -1,0 +1,40 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+
+}
+video{
+    width: 200px;
+}
+.video_box {
+    display: flex;
+    flex-direction: row;
+}
+.video_box div{
+    background-color: rgb(146, 181, 73);
+    border: 1px solid navajowhite;
+}
+.view_count{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.hidden {
+    display: none;
+}
+#toggleLionButton {
+    background-color: rgb(76, 179, 202);
+    font-style: oblique;
+    font-size: 1.25em;
+}
+#hideLionButton {
+    background-color: bisque;
+    font-style: calc();
+}
+#showLionButton {
+    background-color: bisque;
+    font-style: calc();
+}
